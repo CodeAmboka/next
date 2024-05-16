@@ -16,7 +16,7 @@ export default function Home() {
           <div className={styles.upgradeAcc}></div>
           <span className={styles.UpgradeText}>Upgrade to Pro</span>
           <sub className={styles.upgradeSubText}>Unlock weekly workshops, access to all paid content, and more.</sub>
-          <Link href='/auth/signin'><button className={styles.button}>Upgradee</button></Link>
+          <Link href='/auth/signin'><button className={styles.button}>Upgrade</button></Link>
         </div>
       </div>
         
