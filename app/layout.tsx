@@ -38,7 +38,7 @@ export default function RootLayout({
               </div>
 
               <div className="profile">
-                <Profile />
+                <Profile title="Profile" />
               </div>
 
           </nav>
