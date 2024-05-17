@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from './page.module.css'
 import SideMenuItem from "./components/sideMenuItem/SideMenuItem";
+import Todo from "./components/Todo/Todo";
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
           <Link href='/auth/signin'><button className={styles.button}>Upgrade</button></Link>
         </div>
       </div>
+
+        <Todo />
         
       </>
   );
